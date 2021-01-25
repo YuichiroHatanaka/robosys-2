@@ -8,5 +8,5 @@ def callback(message):
 
 if __name__ == "__main__":
     rospy.init_node('timer_sub')
-    sub = rospy.Subscriber('timer_search', Float64, callback)
+    sub = rospy.Subscriber('time_up', Float64, callback)
     rospy.spin()
