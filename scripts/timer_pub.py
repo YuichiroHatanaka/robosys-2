@@ -5,25 +5,31 @@ from std_msgs.msg import Float64
 
 while not rospy.is_shutdown():
 
-    rospy.init_node('count')
-    pub = rospy.Publisher('count_up', Float64, queue_size = 1)
-    rate = rospy.Rate(10)
+	rospy.init_node('count')
+	pub = rospy.Publisher('time_up', Float64, queue_size = 1)
+	rate = rospy.Rate(10)
 
-    print("1:start")
-    print("2:stop")
+	print("計りたい秒数を設定してください")
 
-    figure = int(input())
+	second = int(input())
 
-    if figure == 1:
-        timer_time = 180
-        start_time = rospy.get_time()
-        print("180s timer start")
-        finish_time = start_time + timertime
-        
-        for time in rospy.get_time():
-        if rospy.get_time == finishtime:
-            break
-        
-        printf("時間です！")
-        
-    rate.sleep()
+	print("0を押してスタートしてください")
+
+	figure = int(input())
+	from time import sleep
+
+	count = 0
+
+	if figure == 0:
+
+		while count < second:
+
+			print(second - count)
+
+			count += 1
+
+			sleep(1)
+
+		print("時間です!")
+
+	rate.sleep()
