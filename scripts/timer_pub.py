@@ -20,9 +20,9 @@ while not rospy.is_shutdown():
         print("180s timer start")
         finish_time = start_time + timertime
         
-        for(;;)
+        for ? in rospy.get_time():
         if rospy.get_time == finishtime:
-        break
+            break
         
         printf("時間です！")
         
