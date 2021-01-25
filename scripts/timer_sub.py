@@ -10,4 +10,3 @@ if __name__ == "__main__":
     rospy.init_node('timer_sub')
     sub = rospy.Subscriber('timer_search', Float64, callback)
     rospy.spin()
-© 2021 GitHub, Inc.
