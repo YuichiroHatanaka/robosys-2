@@ -11,6 +11,7 @@ while not rospy.is_shutdown():
 
     print("1:start")
     print("2:stop")
+    print("0:reset")
 
     figure = int(input())
 
