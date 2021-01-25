@@ -38,7 +38,7 @@ $ rostopic echo /count_up
 ---
 
 ## 実行動画
-動画URL：
+動画URL：https://youtu.be/sXmbOTNf50Q
 
 ---
 
