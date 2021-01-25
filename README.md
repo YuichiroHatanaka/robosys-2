@@ -21,7 +21,7 @@ $ roscore
 ```sh
 $ cd ~/catkin_ws/src/robosys-2/scripts
 $ chmod +x timer_pub.py
-$ rosrun Robot-system2 count_pub.py
+$ rosrun robosys-2 timer_pub.py
 ```
 次にさらに別の端末で下記の手順を実行してください(端末3)
 ```sh
