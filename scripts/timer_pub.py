@@ -20,7 +20,7 @@ while not rospy.is_shutdown():
         print("180s timer start")
         finish_time = start_time + timertime
         
-        for ? in rospy.get_time():
+        for time in rospy.get_time():
         if rospy.get_time == finishtime:
             break
         
