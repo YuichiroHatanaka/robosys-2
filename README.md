@@ -9,7 +9,7 @@
 ## 実行手順
 ROSインストール後に下記の手順を行ってください(端末1)
 ```sh
-$ cd ~/catkin_ws/scr
+$ cd ~/catkin_ws/src
 $ git clone https://github.com/YuichiroHatanaka/robosys-2.git
 $ cd..
 $ catkin_make
