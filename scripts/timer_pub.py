@@ -25,13 +25,5 @@ while not rospy.is_shutdown():
         break
         
         printf("時間です！")
-
-    if figure == 2:
-        stop_time = rospy.get_time()
-        print("timer stop")
-        time = timer_time + start_time - finish_time 
-        print("あと"time"です")
-        pub.publish(time)
-
-
+        
     rate.sleep()
