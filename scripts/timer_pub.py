@@ -5,7 +5,7 @@ from std_msgs.msg import Float64
 
 while not rospy.is_shutdown():
 
-	rospy.init_node('count')
+	rospy.init_node('timer_pub')
 	pub = rospy.Publisher('time_up', Float64, queue_size = 1)
 	rate = rospy.Rate(10)
 
