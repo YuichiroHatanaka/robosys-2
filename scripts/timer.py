@@ -11,17 +11,16 @@ while not rospy.is_shutdown():
 
     print("1:start")
     print("2:stop")
-    print("0:reset")
 
     figure = int(input())
 
     if figure == 1:
         start_time = rospy.get_time()
-        print("count start")
+        print("timer start")
 
     if figure == 2:
         finish_time = rospy.get_time()
-        print("count stop")
+        print("timer stop")
         time = finish_time - start_time
         print(time)
         pub.publish(time)
