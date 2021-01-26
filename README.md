@@ -33,7 +33,7 @@ $ rosrun reobosys-2 timer_sub.py
 ```sh
 $ cd ~/catkin_ws/src/robosys-2/scripts
 $ rostopic list
-$ rostopic echo /count_up
+$ rostopic echo /time_up
 ```
 ---
 
