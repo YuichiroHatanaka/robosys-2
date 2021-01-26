@@ -32,4 +32,5 @@ while not rospy.is_shutdown():
 
 		print("時間です!")
 
+	pub.publish(second)
 	rate.sleep()
